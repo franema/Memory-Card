@@ -13,26 +13,31 @@
 /*Main component*/
 .main_container {
     background-color: rgb(104, 139, 170);
+    height: 100%;
 }
 
 .img_board {
     display: grid;
     grid-template: 1fr 1fr / repeat(4, 1fr) ;
+    gap: 10%;
+    padding: 4%;
 }
 
 .img_container {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .img_container:hover {
-    transform: scale(1.02);
+    border: 3px solid rgba(255, 196, 0, 0.377);
     cursor: pointer;
     transition: all 0.5s;
 }
 
 img {
-    max-width: 80%;
+    flex: 1;
+    max-width: 100%;
 }
 
 /*Navbar Component*/
