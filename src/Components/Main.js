@@ -10,8 +10,6 @@ import tiger from "../img/Tiger.jpg"
 
 function Main({ changePoints, lose }) {
 
-   
-
     const [images, setImages] = useState([
         elefant,
         giraffe,
